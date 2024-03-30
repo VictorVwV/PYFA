@@ -3,7 +3,7 @@ body{
 }
 .box1{
   margin-top:40px ;
-  margin-left: 100px;
+  margin-left: 80%;
   margin-right: 40px;
   margin-bottom: 100px;
   display: grid;
@@ -21,8 +21,7 @@ flex-direction: column;
 }
 .box3{
   margin-top:150px ;
-  margin-left: 100px;
-  margin-right: 40px;
+  margin-left:10px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
@@ -58,7 +57,8 @@ cursor: pointer;
 .casing{
   display: grid;
   grid-template-columns: 300px 100px 60px;
-  column-gap: 30px;
+  column-gap: 8px;
+  justify-content: center;
 }
 .ecu{
   display: flex;
@@ -67,6 +67,7 @@ cursor: pointer;
 }
 .vad{
   border: none;
+  max-width: 2000px;
   font-size: 40px;
 }
 .rez{
@@ -89,7 +90,7 @@ cursor: pointer;
   display: inline-block;
   width: 60px;
   height: 34px;
-  justify-content: end;
+  justify-content:flex-end;
 }
 .sw input{
   opacity: 0;

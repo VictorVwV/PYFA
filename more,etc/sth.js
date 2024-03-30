@@ -1,3 +1,14 @@
+function centerBox() {
+  var box3 = document.getElementById('box3');
+  var windowHeight = window.innerHeight;
+  var windowWidth = window.innerWidth;
+  var boxHeight = box3.offsetHeight;
+  var boxWidth = box3.offsetWidth;
+  box3.style.top = ((windowHeight - boxHeight) / 2) + 'px';
+  box3.style.left = ((windowWidth - boxWidth) / 2) + 'px';
+}
+window.onload = centerBox;
+window.onresize = centerBox;
 function Backc(element) {
   let buttons = document.querySelectorAll('.but');
   let div=document.querySelectorAll('.vad');
