@@ -4,8 +4,8 @@ function centerBox() {
   var windowWidth = window.innerWidth;
   var boxHeight = box3.offsetHeight;
   var boxWidth = box3.offsetWidth;
-  box3.style.top = ((windowHeight - boxHeight) / 2) + 'px';
-  box3.style.left = ((windowWidth - boxWidth) / 2) + 'px';
+  box3.style.top = Math.round((windowHeight - boxHeight) / 3) + 'px';
+  box3.style.left = Math.round((windowWidth - boxWidth) / 3) + 'px';
 }
 window.onload = centerBox;
 window.onresize = centerBox;
@@ -29,6 +29,7 @@ function Backc(element) {
       div.style.color="#000000";
      })
   }}
+
 afi=document.getElementById("dis");
 afi2=document.getElementById("dis2");
 let v=Math.round(Math.round(Math.random()*100)/12)+1;
@@ -70,7 +71,7 @@ while((b<2 && n<2) || (v*x-y*n<=0 || b*x-y*n<0 || b*x+y*n>40 || v*x-y*w<=0)){
     x=Math.round(sv);
   }
 }
-console.log(v +" "+w+" "+x+" "+y+" "+b+" "+n )
+console.log(v +" "+w+" "+x+" "+y+" "+b+" "+n );
 let vf=0;
 if(n*y>v*x){
   vf=1;

@@ -9,6 +9,9 @@ body{
   display: grid;
   grid-template-columns: 1fr auto;
 }
+.cond{
+  margin-left: 16%;
+}
 .box{
 margin-top:40px ;
 margin-left: 100px;
