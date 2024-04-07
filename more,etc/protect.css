@@ -9,8 +9,23 @@ body{
   display: grid;
   grid-template-columns: 1fr auto;
 }
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.td {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
 .cond{
   margin-left: 16%;
+}
+.cond2{
+  margin-left: 2%;
 }
 .box{
 margin-top:40px ;
