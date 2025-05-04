@@ -151,8 +151,8 @@ function centerBox() {
     var windowWidth = window.innerWidth;
     var boxHeight = box3.offsetHeight;
     var boxWidth = box3.offsetWidth;
-    box3.style.top = Math.round((windowHeight - boxHeight) / 3) + 'px';
-    box3.style.left = Math.round((windowWidth - boxWidth) / 3) + 'px';
+    box3.style.top = Math.round((windowHeight - boxHeight) / 4) + 'px';
+    box3.style.left = Math.round((windowWidth - boxWidth) / 4) + 'px';
   }
   window.onload = centerBox;
   window.onresize = centerBox;

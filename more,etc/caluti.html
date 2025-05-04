@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="icon" type="image/x-icon" href="WhatsApp Image 2024-02-18 at 18.38.07_867ba0a3.jpg">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sudoku Puzzle</title>
-<link rel="stylesheet" href="protect.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku Puzzle</title>
+  <link rel="stylesheet" href="protect.css">
+  <style>
+    .box3 {
+      margin-left: 30px;
+    }
+  </style>
 </head>
+
 <body>
-<div class="box3">
-  <h1 class="cond2">Sudoku Puzzle</h1>
-<div class="box1">
-  <div class="swb">
-<label class="sw">
-  <input type="checkbox" onchange="Backc(this)">
-  <span class="ogr"></span>
-</label>
-</div>
-</div>
-<table id="sudokuTable">
-</table>
-<button onclick="generateSudoku()">Generate Puzzle</button>
-<br><br><br><br>
-<button onclick="solvePuzzle()">Solve Puzzle</button>
-</div>
-<script src="cross.js"></script>
+  <div class="box3" id="box3">
+    <h1 class="cond2">Sudoku Puzzle</h1>
+    <div class="box1">
+      <div class="swb">
+        <label class="sw">
+          <input type="checkbox" onchange="Backc(this)">
+          <span class="ogr"></span>
+        </label>
+      </div>
+    </div>
+    <table id="sudokuTable">
+    </table>
+    <button onclick="generateSudoku()">Generate Puzzle</button>
+    <br><br><br><br>
+    <button onclick="solvePuzzle()">Solve Puzzle</button>
+  </div>
+  <script src="cross.js"></script>
 </body>
+
 </html>
